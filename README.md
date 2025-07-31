@@ -61,17 +61,6 @@ Built using **HTML**, **CSS**, **JavaScript** and **XML**, the project demonstra
 - Typography chosen for elegance and readability
 - Validated for both color contrast and accessibility (manual and automated tests)
 
-## 📸 Screenshots
-
-Included in the `/screenshots/` or appendix of the coursework:
-- Loading Page
-- Home
-- Menu
-- Events
-- Gallery
-- Contact Us
-- Table Reservation
-
 ## 🧠 Reflection & Challenges
 
 - Transitioning wireframes into polished designs required multiple iterations
