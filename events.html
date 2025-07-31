@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Piccante</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="events.css">
+    <script defer src="events.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Piccante Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+    </header>
+<br>
+<br>
+    <section class="event-types">
+        <h2>Elevate Your Celebrations with Us!</h2>
+        <div class="event-cards">
+            <div class="event-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Birthday Party</h3>
+                <p>Make your birthday unforgettable with our event space.</p>
+            </div>
+            <div class="event-card">
+                <i class="fas fa-heart"></i>
+                <h3>Wedding Anniversary</h3>
+                <p>Celebrate your love with elegance and style.</p>
+            </div>
+            <div class="event-card">
+                <i class="fas fa-users"></i>
+                <h3>Meetups</h3>
+                <p>Host your social or business meetups in a perfect ambiance.</p>
+            </div>
+            <div class="event-card">
+                <i class="fas fa-glass-cheers"></i>
+                <h3>Private Dinner</h3>
+                <p>Enjoy an exclusive dinner experience with your loved ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-form">
+        <h2>Book Your Event</h2>
+        <form id="eventForm">
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="input-group">
+                <label for="date">Event Date</label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="input-group">
+                <label for="eventType">Event Type</label>
+                <select id="eventType" required>
+                    <option value="" disabled selected>Select an event type</option>
+                    <option value="Birthday Party">Birthday Party</option>
+                    <option value="Wedding Anniversary">Wedding Anniversary</option>
+                    <option value="Meetups">Meetups</option>
+                    <option value="Private Dinner">Private Dinner</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="message">Special Requests</label>
+                <textarea id="message" placeholder="Any special requirements?"></textarea>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+        <p id="successMessage" class="hidden">Your event has been booked successfully! 🎉</p>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tripadvisor.com/" aria-label="TripAdvisor"><img src="images/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 273, Galle Road, Colombo 04</p>
+                    <p><i class="fas fa-phone"></i> +94 76 936 9573</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <img src="images/signature-logo.png" alt="Piccante Signature Logo">
+                    <p>&copy; 2025 Piccante. Heat Glow.</p>
+                </div>
+            </div>
+    
+            <div class="footer-button">
+              <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

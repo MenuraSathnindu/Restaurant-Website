@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piccante</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+       let bannerIndex = 0;
+
+function showBannerSlides() {
+  const slides = document.querySelectorAll('.banner-slide');
+  slides.forEach((slide, i) => {
+    slide.classList.remove('active');
+  });
+
+  bannerIndex = (bannerIndex + 1) % slides.length;
+  slides[bannerIndex].classList.add('active');
+
+  setTimeout(showBannerSlides, 5000); // 5 sec
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.banner-slide')[0].classList.add('active');
+  setTimeout(showBannerSlides, 5000);
+});
+        
+    window.addEventListener('load', function () {
+    const popup = document.getElementById('popup-modal');
+
+    // Show the popup
+    if (popup) {
+      popup.style.display = 'flex';
+
+      // Automatically close after 5 seconds
+      setTimeout(() => {
+        popup.style.display = 'none';
+      }, 5000);
+    }
+  });
+
+  // Manual close button
+  function closePopup(event) {
+    event.stopPropagation(); // Prevent redirect
+    const popup = document.getElementById('popup-modal');
+    popup.style.display = 'none';
+  }
+        </script>
+</head>
+<body>
+    <!-- Popup Modal -->
+<div id="popup-modal" class="popup-modal">
+    <div class="popup-content" onclick="window.location.href='#sri-lankan-menu'">
+      <span class="close-btn" onclick="closePopup(event)">&times;</span>
+      <img src="images/SinhalaNewYearDiscount.jpg" alt="Sinhala New Year Discount" />
+    </div>
+  </div>
+  
+    <div class="video-container">
+        <video autoplay loop muted playsinline class="background-video"> 
+            <source src="videos/home.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Piccante Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Banner Section with Slideshow -->
+  <section class="banner-box">
+    <div class="image-slideshow" onclick="location.href='menu.html'">
+      <img class="banner-slide active" src="images/banner1.jpg" alt="Banner 1">
+      <img class="banner-slide" src="images/banner2.jpg" alt="Banner 2">
+    </div>
+  </section>
+  
+  
+        <section class="content">
+            <div class="box about-us">
+                <h2>About Us</h2>
+                <p>Welcome to <strong>Piccante</strong>, where passion meets flavor! Our restaurant is dedicated to serving authentic Asian cuisine, crafted with fresh ingredients and traditional recipes.</p>
+            </div>
+            <div class="box why-choose-us">
+                <h2>Why Choose Us?</h2>
+                <p>At <strong>Piccante</strong>, we offer an unparalleled dining experience with a fusion of flavors, exceptional service, and a warm ambiance.</p>
+            </div>
+        </section>
+        
+        <section class="customer-reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews-container">
+                <div class="reviews-grid">
+                    <div class="review-box">
+                        <img src="images/elon.jpg" alt="Elon Musk">
+                        <h3>Elon Musk</h3>
+                        <p>"Absolutely loved the food! Highly recommend!"</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="review-box">
+                        <img src="images/oprah.jpg" alt="Oprah Winfrey">
+                        <h3>Oprah Winfrey</h3>
+                        <p>"The best Asian cuisine I've ever tasted."</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="review-box">
+                        <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p>"A perfect blend of flavors and hospitality."</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="review-box">
+                        <img src="images/gates.jpg" alt="Bill Gates">
+                        <h3>Bill Gates</h3>
+                        <p>"Exceptional quality and great service!"</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="review-box">
+                        <img src="images/emma.jpg" alt="Emma Watson">
+                        <h3>Emma Watson</h3>
+                        <p>"Loved the ambiance and food! A must-visit."</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    <div class="review-box">
+                        <img src="images/beckham.jpg" alt="David Beckham">
+                        <h3>David Beckham</h3>
+                        <p>"Fantastic experience! Would visit again."</p>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tripadvisor.com/" aria-label="TripAdvisor"><img src="images/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 273, Galle Road, Colombo 04</p>
+                    <p><i class="fas fa-phone"></i> +94 76 936 9573</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <img src="images/signature-logo.png" alt="Piccante Signature Logo">
+                    <p>&copy; 2025 Piccante. Heat Glow.</p>
+                </div>
+            </div>
+    
+            <div class="footer-button">
+              <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+          </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

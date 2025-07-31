@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piccante</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menustyles.css">
+    <script src="menuscript.js"></script>
+
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="videos/menu.mp4" type="video/mp4">
+        </video>
+    </div>
+<br>
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Piccante Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+    </header>
+  <br>  
+    <!-- Menu Section -->
+<section class="menu">
+
+    <!-- Buttons will be added dynamically -->
+    <div class="menu-categories" id="menu-categories"></div>
+
+    <!-- Menu items will be inserted dynamically here -->
+    <div id="menu-items-container"></div>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tripadvisor.com/" aria-label="TripAdvisor"><img src="images/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 273, Galle Road, Colombo 04</p>
+                    <p><i class="fas fa-phone"></i> +94 76 936 9573</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <img src="images/signature-logo.png" alt="Piccante Signature Logo">
+                    <p>&copy; 2025 Piccante. Heat Glow.</p>
+                </div>
+            </div>
+    
+            <div class="footer-button">
+              <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+          </div>
+        </div>
+    </footer>
+
+    <script>
+        function filterMenu(category) {
+            document.querySelectorAll(".menu-section").forEach(section => {
+                section.classList.remove("active");
+            });
+            document.getElementById(category).classList.add("active");
+        }
+    </script>
+</body>
+</html>

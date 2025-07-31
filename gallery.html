@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+        <img src="images/logo.png" alt="Piccante Logo">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+  </header>
+<br>
+<br>
+<br>
+<br>
+  <!-- Gallery Section -->
+  <main>
+    <section class="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/img1.jpg" alt="Gallery Image 1" class="gallery-img" />
+        <img src="images/img2.jpg" alt="Gallery Image 2" class="gallery-img" />
+        <img src="images/img3.jpg" alt="Gallery Image 3" class="gallery-img" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (same as main site) -->
+     <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tripadvisor.com/" aria-label="TripAdvisor"><img src="images/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 273, Galle Road, Colombo 04</p>
+                    <p><i class="fas fa-phone"></i> +94 76 936 9573</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <img src="images/signature-logo.png" alt="Piccante Signature Logo">
+                    <p>&copy; 2025 Piccante. Heat Glow.</p>
+                </div>
+            </div>
+    
+            <div class="footer-button">
+              <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+          </div>
+        </div>
+    </footer>
+
+  <!-- Modal Lightbox -->
+  <div id="modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-img" />
+    <div id="modal-caption"></div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

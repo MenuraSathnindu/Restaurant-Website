@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item id="lamprais">
+        <name>Lamprais</name>
+        <category>Sri Lankan</category>
+        <image>images/lamprais.jpg</image>
+        <description>Rice, meat, and curry wrapped in banana leaf.</description>
+        <price>12.99</price>
+    </item>
+    <item id="appa">
+        <name>Hoppers (Appa)</name>
+        <category>Sri Lankan</category>
+        <image>images/appa.jpg</image>
+        <description>Appa, Sri Lanka's bowl-shaped pancakes, are made from rice flour and coconut milk. Crispy edges, soft center, often with egg (biththara appa). Served with sambol, a local favorite.</description>
+        <price>6.99</price>
+    </item>
+     <item id="kottu">
+        <name>Kottu Roti</name>
+        <category>Sri Lankan</category>
+        <image>images/kottu.jpg</image>
+        <description>Kottu roti is a popular Sri Lankan dish of chopped flatbread, vegetables, eggs, and curry. The name comes from the Tamil word kottu, which means "to chop".</description>
+        <price>6.99</price>
+    </item>
+     <item id="kiribath">
+        <name>Milk RIce (Kiribath)</name>
+        <category>Sri Lankan</category>
+        <image>images/kiribath.jpg</image>
+        <description>Kiribath is a traditional Sri Lankan dish of rice cooked in coconut milk. It's often eaten for breakfast and is considered a ceremonial food.</description>
+        <price>6.99</price>
+    </item>
+    <item id="string-hoppers">
+        <name>String Hoppers (Idiyappam)</name>
+        <category>Sri Lankan</category>
+        <image>images/string-hoppers.jpg</image>
+        <description>String hoppers, or idiyappam, are a traditional Sri Lankan dish made from rice flour and water, pressed into noodle-like strands and steamed. They are often served with coconut milk or curry.</description>
+        <price>6.99</price>
+    </item>
+    <item id="sambol">
+        <name>Sambol</name>
+        <category>Sri Lankan</category>
+        <image>images/sambol.jpg</image>
+        <description>Sambol is a spicy condiment made from chili peppers, onions, and coconut. It's a staple in Sri Lankan cuisine, often served with rice and curries.</description>
+        <price>6.99</price>
+    </item>
+    <item id="pol-roti">
+        <name>Pol Roti</name>
+        <category>Sri Lankan</category>
+        <image>images/pol-roti.jpg</image>
+        <description>Pol roti is a traditional Sri Lankan flatbread made with coconut and flour. It's often served with curry or sambol and is a popular breakfast item.</description>
+        <price>6.99</price>
+    </item>
+  <item id="dunthel-bath">
+        <name>Dunthel Bath</name>
+        <category>Sri Lankan</category>
+        <image>images/dunthel-bath.jpg</image>
+        <description>Dunthel bath is a traditional Sri Lankan dish made with rice and a variety of spices. It's often served with meat or vegetable curries.</description>
+        <price>6.99</price>
+    </item>
+    <item id="pittu">
+        <name>Pittu</name>
+        <category>Sri Lankan</category>
+        <image>images/pittu.jpg</image>
+        <description>Pittu is a traditional Sri Lankan dish made from rice flour and coconut, steamed in cylindrical molds. It's often served with curry or milk and is a popular breakfast item.</description>
+        <price>6.99</price>
+    </item>
+    <item id="crab-curry">
+        <name>Crab Curry</name>
+        <category>Sri Lankan</category>
+        <image>images/crab-curry.jpg</image>
+        <description>Crab curry is a popular Sri Lankan dish made with fresh crab cooked in a spicy coconut milk gravy. It's often served with rice or string hoppers.</description>
+        <price>12.99</price>
+    </item>
+    <item id="thali">
+    <name>Thali</name>
+    <category>indian</category>
+    <image>images/thali.jpg</image>
+    <description>A "thali" is a platter used to serve a variety of dishes, often representing a complete meal with rice, lentils, vegetables, chutneys, and more.</description>
+    <price>12.99</price>
+</item>
+
+<item id="biryani">
+    <name>Biryani</name>
+    <category>indian</category>
+    <image>images/biryani.jpg</image>
+    <description>Biryani is a flavorful layered rice dish popular in South Asia. It's made with rice, meat (such as chicken, goat, lamb, or beef) or seafood, and a mix of spices. It often features basmati rice and can come in many regional variations.</description>
+    <price>6.99</price>
+</item>
+
+<item id="naan">
+    <name>Naan</name>
+    <category>indian</category>
+    <image>images/naan.jpg</image>
+    <description>Naan is a soft and slightly chewy leavened, oven-baked flatbread. It's a staple in Indian cuisine and is also found in the cuisines of much of West, Central and South Asia. Naan is often served with curries, tandoori dishes, and other flavorful foods. Variations include garlic naan, butter naan, and stuffed naan.</description>
+    <price>12.99</price>
+</item>
+
+<item id="matar-kulcha">
+    <name>Matar Kulcha</name>
+    <category>indian</category>
+    <image>images/matar-kulcha.jpg</image>
+    <description>Matar kulcha is a popular street food dish from North India. Matar refers to the white peas that are cooked in a spicy and tangy gravy, while kulcha is a soft, leavened flatbread. It's often served with chopped onions, coriander leaves, and a squeeze of lemon juice.</description>
+    <price>12.99</price>
+</item>
+
+<item id="dumplings">
+    <name>Dumplings</name>
+    <category>chinese</category>
+    <image>images/dumplings.jpg</image>
+    <description>Chinese dumplings or "jiaozi" in Cantonese are parcels of dough stuffed with meat, fish and/or vegetables and cooked or steamed or fried in a pan. The best-known dumplings are filled with minced pork and cabbage.</description>
+    <price>12.99</price>
+</item>
+
+<item id="chow-mein">
+    <name>Chow Mein</name>
+    <category>chinese</category>
+    <image>images/chow-mein.jpg</image>
+    <description>Chow mein is a Chinese dish of fried (chow) noodles (mein). The variations are endless depending on the chef or region, stir-fried with pork, chicken, shrimp and vegetables, such as cabbage, beansprouts, bell pepper, carrot and spring onion.</description>
+    <price>6.99</price>
+</item>
+
+<item id="char-siu">
+    <name>Char Siu</name>
+    <category>chinese</category>
+    <image>images/char-siu.jpg</image>
+    <description>The Chinese dish, char siu is marinated, roasted pork and has its origins in Cantonese cuisine. Char siu means "fork roasted", which refers to the method by which the meat is prepared: long strips of meat are skewered on a fork and roasted or barbecued.</description>
+    <price>12.99</price>
+</item>
+
+<item id="mapo-tofu">
+    <name>Mapo Tofu</name>
+    <category>chinese</category>
+    <image>images/mapu-tofu.jpg</image>
+    <description>Mapo tofu is a spicy dish from the Chinese province of Sichuan, consisting of fresh silk tofu and minced meat in sauce of fermented beans, chilli oil and Sichuan peppercorns. A well-made mapo tofu will tingle your tongue and can be eaten with steamed rice.</description>
+    <price>12.99</price>
+</item>
+
+<item id="lasagna">
+    <name>Lasagna</name>
+    <category>italian</category>
+    <image>images/lasagna.jpg</image>
+    <description>Lasagna is a classic Italian dish made with wide, flat pasta sheets layered with a rich, savory sauce, cheese (typically ricotta, mozzarella, and Parmesan), and often meat like ground beef or sausage. It's baked until bubbly and golden brown, creating a comforting and hearty meal.</description>
+    <price>12.99</price>
+</item>
+
+<item id="pizza">
+    <name>Pizza</name>
+    <category>italian</category>
+    <image>images/pizza.jpg</image>
+    <description>Pizza is a beloved flatbread dish originating from Italy, typically consisting of a leavened wheat-based dough topped with tomato sauce, cheese (most often mozzarella), and a variety of other ingredients. It's then baked at high temperatures, resulting in a flavorful and versatile meal.</description>
+    <price>6.99</price>
+</item>
+
+<item id="pasta">
+    <name>Pasta</name>
+    <category>italian</category>
+    <image>images/pasta.jpg</image>
+    <description>Pasta is a staple of Italian cuisine, encompassing a wide variety of shapes and sizes of dried dough made from durum wheat. It's cooked by boiling and then typically served with a sauce, such as tomato, pesto, or cream-based sauces, and often combined with meats, vegetables, or cheeses.</description>
+    <price>12.99</price>
+</item>
+
+<item id="ribollita">
+    <name>Ribollita</name>
+    <category>italian</category>
+    <image>images/ribollita.jpg</image>
+    <description>This traditional Tuscan soup is a thick, rustic dish made with bread, cannellini beans, and a variety of vegetables, most notably kale or cabbage. The name "ribollita" means "reboiled," reflecting its origins as a way to use leftover vegetable soup and stale bread. It's a deeply flavorful and satisfying dish, perfect for colder weather.</description>
+    <price>12.99</price>
+</item>
+
+
+    <!-- Add more items similarly... -->
+</menu>

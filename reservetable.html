@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Table</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reserve.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Piccante Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="video-container">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="videos/menu.mp4" type="video/mp4">
+        </video>
+    </div>
+    <main>
+        <section class="reservation-map">
+            <h2>Restaurant Seating Map</h2>
+            <div class="map-container new-layout">
+        
+                <!-- Areas -->
+                <div class="map-tags">
+                    <div class="zone-tag event-area">Event Area 1</div>
+                    <div class="zone-tag event-area">Event Area 2</div>
+                    <div class="zone-tag kitchen-tag">Kitchen</div>
+                    <div class="zone-tag band-tag">Band Area</div>
+                </div>
+        
+                <!-- Tables -->
+                <div class="table-grid upgraded-layout">
+                    <!-- Row 1 -->
+                    <div class="table" data-type="couple">C1</div>
+                    <div class="table" data-type="family">F1</div>
+                    <div class="table" data-type="family">F2</div>
+                    <div class="table" data-type="couple">C2</div>
+                    <div class="table" data-type="couple">C3</div>
+                    <div class="table" data-type="family">F3</div>
+                    <div class="table" data-type="couple">C4</div>
+                    <div class="table" data-type="family">F4</div>
+                    <div class="table" data-type="couple">C5</div>
+                    <div class="table" data-type="family">F5</div>
+        
+                    <!-- Row 2 -->
+                    <div class="table" data-type="couple">C6</div>
+                    <div class="table" data-type="couple">C7</div>
+                    <div class="table" data-type="family">F6</div>
+                    <div class="table" data-type="family">F7</div>
+                    <div class="table" data-type="couple">C8</div>
+                    <div class="table" data-type="family">F8</div>
+                    <div class="table" data-type="couple">C9</div>
+                    <div class="table" data-type="couple">C10</div>
+                    <div class="table" data-type="family">F9</div>
+                    <div class="table" data-type="couple">C11</div>
+        
+                    <!-- Row 3 -->
+                    <div class="table" data-type="family">F10</div>
+                    <div class="table" data-type="couple">C12</div>
+                    <div class="table" data-type="couple">C13</div>
+                    <div class="table" data-type="couple">C14</div>
+                    <div class="table" data-type="couple">C15</div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Modal Popup for Table Reservation -->
+    <div id="reservationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Reserve Table <span id="modalTableId"></span></h3>
+            <form id="reservationForm">
+                <select id="method" required>
+                    <option value="guest">Reserve as Guest</option>
+                </select>
+                <input type="text" id="resName" placeholder="Your Name" required />
+                <input type="tel" id="resPhone" placeholder="Phone Number" required />
+                <input type="datetime-local" id="resTime" required />
+                <button id="confirmReserve">Confirm Reservation</button>
+            </form>
+            
+            <div id="confirmation">
+                <h4>✅ Reservation Confirmed!</h4>
+                <pre id="confirmText"></pre>
+                <div id="qrcode"></div>
+            </div>            
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href="https://www.facebook.com" aria-label="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.tripadvisor.com/" aria-label="TripAdvisor"><img src="images/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.facebook.com/" aria-label="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 273, Galle Road, Colombo 04</p>
+                    <p><i class="fas fa-phone"></i> +94 76 936 9573</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    <img src="images/signature-logo.png" alt="Piccante Signature Logo">
+                    <p>&copy; 2025 Piccante. Heat Glow.</p>
+                </div>
+            </div>
+    
+            <div class="footer-button">
+              <a href="reservetable.html" class="reserve-button">Reserve a Table</a>
+          </div>
+        </div>
+    </footer>
+
+    <script src="reserve.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js" ></script>
+</body>
+</html>
